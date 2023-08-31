@@ -1,0 +1,43 @@
+Q1  Test using record and playback in Selenium IDE for the given scenario
+
+Running 'Untitled'
+
+1.open on https://www.google.com/ OK
+
+2.setWindowSize on 1296x696 OK
+
+3.click on id=APjFqb OK
+
+4.type on id=APjFqb with value Selenium Suite OK
+
+5.click on css=form > div:nth-child(1) OK
+
+6.click on css=center:nth-child(1) > .gNO89b OK
+
+7.click on css=.hlcw0c:nth-child(1) .LC20lb OK
+
+8.click on css=.nPDzT:nth-child(4) > .GKS7s OK
+
+9.doubleClick on css=.nPDzT:nth-child(4) > .GKS7s OK
+
+18.close OK
+
+ 
+ 
+
+Q2 Write a Automation code to perform the following test.
+
+ 
+
+Q3 Naukri application
+ 
+In display Display job information
+
+Q4 Login Page
+
+ 
+In output Display verified login link
+
+
+
+
