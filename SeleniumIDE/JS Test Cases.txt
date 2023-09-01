@@ -1,0 +1,47 @@
+1: Test Case
+
+Open https://www.saucedemo.com/
+Login into Page
+select product
+alert Message Product title
+Close Browser
+----------------------------------------------------------------------------------------------------------------
+2: Test Case
+
+Open https://www.saucedemo.com/
+Login into Page
+select product
+if product price is movr ethan 3 dolor popup alert message YOUR NOT ELIGIBLE
+Close Browser
+
+---------------------------------------------------------------------------------------------------------------
+3: Test Case
+
+Open https://www.saucedemo.com/
+Login into Page
+select product Deselect Product 5 times
+close
+---------------------------------------------------------------------------------------------------------------
+4: Test Case
+
+Open https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+Click Customer Login
+Select Customer name and login
+Deposit Amount 
+After Deposit Amount verify account balance is correct increment or not
+logout
+close
+
+---------------------------------------------------------------------------------------------------------------
+5: Test Case
+
+Open https://www.globalsqa.com/angularJs-protractor/BankingProject/#/login
+Click Customer Login
+Select Customer name and login
+Deposit Amount 
+Withdraw Amount 
+Verify after Withdraw Account balance is decremented or not.
+Verify Withdraw amount is Less than balance or not.
+logout
+close
+------------------------------------------------------------------------------------------------------
