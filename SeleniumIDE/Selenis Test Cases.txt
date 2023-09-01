@@ -1,0 +1,101 @@
+1 Test Case :
+
+Open https://parabank.parasoft.com/
+Click Register & Fill Form.
+Enter Login Info.
+Open New Account 
+Select drop down  Account would you like to open saving 
+Click Open New Account
+Logout
+----------------------------------------------------------------------------------------------------------------------------
+2 Test Case:
+
+Open https://parabank.parasoft.com/
+Login
+Transfer Fund
+Enter Valid Amount
+Select to account
+click Transfer
+Click on FInd Transferox
+Verify Transaction using transaction date , enter date in Find by Date:box
+then click Find transaction
+Verify transaction Amount in that table.
+Logout
+--------------------------------------------------------------
+3 Test Case
+
+Open https://www.saucedemo.com/
+Login into Page
+Select More than 2 Product 
+Go to cart
+Click Checkout Button
+Fill Form for checkout.
+Print Cost.
+Close Browser.
+--------------------------------------------------------------
+4  Test Case
+
+1 Open website url - https://godaddy.com/
+2 Maximize browser window.
+3 Click on the first link from the menu, it will open up the s 4 sub-menu with multiple sub-menu links.
+5 Click on the first sub-menu link.
+6 Get the page title and validate it.
+7 Go back to the home page by clicking on the GoDaddy logo.
+close
+----------------------------------------------------------------------------------------------------------------------------
+5 Test Case
+
+1 Open website url - https://godaddy.com/
+2 Maximize browser window.
+3 Click on the first menu link, which is 'Domains'. It will open up a sub-menu, click on the 'Domain Name Search' link from the sub-menu.
+4 Enter some test value in the search box, like "my domain" and click on the "Buy It" button.
+5 If the domain is available then verify that the "Add to Cart" button is present alongside the domain name.
+6 Verify that the price of the domain is also displayed alongside the domain name.
+--------------------------------------------------------------
+6 Test Case
+
+1 Open https://demo.applitools.com/
+2 Click on Login
+3 Asseert Login
+4 fill the form
+5 close
+
+
+----------------------------------------------------------
+7 Test Case :
+
+1. Open https://automationintesting.online/
+2. Click on nav bar courses option 
+3. Click playwaight
+4. start , Pause ,Stop video.
+5. close 
+
+-----------------------------------------------------------
+8 Test Case :
+
+1. Open https://automationintesting.online/
+2. Click on Sign Up
+3. Fill Form .
+4. Click on sign in
+5. close
+-------------------------------------------------------------
+9 Test Case :
+
+1. open - https://the-internet.herokuapp.com/javascript_alerts
+2. click om clickfor js alert
+3. Assert alert
+4. click om clickfor js confirm
+5. click on okay
+6. click for js prompt
+7. Enter hello world
+8. click okay and pirnt the entered text on console
+-------------------------------------------------------------
+10 Test Case :
+
+Open https://www.saucedemo.com/
+Login into Page
+open side nav
+go About us and explore page 
+go to footer
+click career 
+Close Browser
