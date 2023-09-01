@@ -16,9 +16,9 @@ Select to account
 click Transfer
 Click on FInd Transferox
 Verify Transaction using transaction date , enter date in Find by Date:box
-            then click Find transaction
-      9.   Verify transaction Amount in that table.
-     10.  Logout
+then click Find transaction
+Verify transaction Amount in that table.
+Logout
 -----------------------------------------------------------------------------------------------------------------------
 3 Test Case
 Open Google.com
@@ -63,5 +63,38 @@ Close Browser.
 10. Enter some test value in the search box, like "my domain" and click on the "Buy It" button.
 11. If the domain is available then verify that the "Add to Cart" button is present alongside the domain name.
 12. Verify that the price of the domain is also displayed alongside the domain name.
+--------------------------------------------------------------
+Test 7
+
+1 Open https://demo.applitools.com/
+2 Click on Login
+3 Asseert Login
+4 fill the form
+5 
 
 
+----------------------------------------------------------
+Test 8
+1. Open https://automationintesting.online/
+2. Click on nav bar courses option 
+3. Click playwaight
+4. start , Pause ,Stop video.
+5. close 
+
+-----------------------------------------------------------
+Test 9
+1. Open https://automationintesting.online/
+2. Click on Sign Up
+3. Fill Form .
+4. Click on sign in
+5. close
+-------------------------------------------------------------
+Test 10
+1. open - https://the-internet.herokuapp.com/javascript_alerts
+2. click om clickfor js alert
+3. Assert alert
+4. click om clickfor js confirm
+5. click on okay
+6. click for js prompt
+7. Enter hello world
+8. click okay and pirnt the entered text on console
