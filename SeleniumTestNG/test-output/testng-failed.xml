@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite parallel="methods" name="Failed suite [Suite]">
+  <test thread-count="5" parallel="methods" name="Test(failed)">
+    <classes>
+      <class name="com.selenium.Day11TestNgPackage.GroupExample">
+        <methods>
+          <include name="g"/>
+          <include name="h"/>
+        </methods>
+      </class> <!-- com.selenium.Day11TestNgPackage.GroupExample -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
