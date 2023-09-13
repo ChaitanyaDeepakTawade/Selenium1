@@ -1,0 +1,21 @@
+{
+  "id": "fb80abf3-d3d2-431c-a91d-216fa3200b10",
+  "version": "2.0",
+  "name": "Day9SeleniumIDE",
+  "url": "",
+  "tests": [{
+    "id": "addb33d2-920f-4805-8218-42ac01677764",
+    "name": "Untitled",
+    "commands": []
+  }],
+  "suites": [{
+    "id": "173a513c-47b4-492d-a670-e921c74c74c3",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["addb33d2-920f-4805-8218-42ac01677764"]
+  }],
+  "urls": [],
+  "plugins": []
+}

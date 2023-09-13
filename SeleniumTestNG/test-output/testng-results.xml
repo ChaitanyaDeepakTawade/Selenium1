@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="2" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-04T17:57:32 IST" name="Suite" finished-at="2023-09-04T17:57:41 IST" duration-ms="8523">
+    <groups>
+      <group name="google">
+        <method signature="GroupExample.f()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" name="f" class="com.selenium.Day11TestNgPackage.GroupExample"/>
+        <method signature="GroupExample.g()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" name="g" class="com.selenium.Day11TestNgPackage.GroupExample"/>
+        <method signature="GroupExample.h()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" name="h" class="com.selenium.Day11TestNgPackage.GroupExample"/>
+      </group> <!-- google -->
+      <group name="bing">
+        <method signature="GroupExample.i()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" name="i" class="com.selenium.Day11TestNgPackage.GroupExample"/>
+      </group> <!-- bing -->
+    </groups>
+    <test started-at="2023-09-04T17:57:32 IST" name="Test" finished-at="2023-09-04T17:57:41 IST" duration-ms="8523">
+      <class name="com.selenium.Day11TestNgPackage.GroupExample">
+        <test-method signature="f()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" started-at="2023-09-04T17:57:33 IST" name="f" finished-at="2023-09-04T17:57:41 IST" duration-ms="8428" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+        <test-method signature="i()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" started-at="2023-09-04T17:57:33 IST" name="i" finished-at="2023-09-04T17:57:41 IST" duration-ms="8432" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- i -->
+        <test-method signature="g()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" started-at="2023-09-04T17:57:33 IST" name="g" finished-at="2023-09-04T17:57:33 IST" duration-ms="46" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at com.selenium.Day11TestNgPackage.GroupExample.g(GroupExample.java:23)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- g -->
+        <test-method signature="h()[pri:0, instance:com.selenium.Day11TestNgPackage.GroupExample@76a4ebf2]" started-at="2023-09-04T17:57:33 IST" name="h" finished-at="2023-09-04T17:57:33 IST" duration-ms="46" status="FAIL">
+          <exception class="java.lang.NullPointerException">
+            <message>
+              <![CDATA[Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException: Cannot invoke "org.openqa.selenium.WebDriver.findElement(org.openqa.selenium.By)" because "this.driver" is null
+at com.selenium.Day11TestNgPackage.GroupExample.h(GroupExample.java:27)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:104)
+at java.base/java.lang.reflect.Method.invoke(Method.java:578)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:139)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:664)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:227)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:50)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:957)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:200)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:148)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:128)
+at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+at java.base/java.lang.Thread.run(Thread.java:1623)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- h -->
+      </class> <!-- com.selenium.Day11TestNgPackage.GroupExample -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
