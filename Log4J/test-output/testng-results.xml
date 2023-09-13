@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-11T14:43:45 IST" name="Default suite" finished-at="2023-09-11T14:43:54 IST" duration-ms="9512">
+    <groups>
+    </groups>
+    <test started-at="2023-09-11T14:43:45 IST" name="Default test" finished-at="2023-09-11T14:43:54 IST" duration-ms="9512">
+      <class name="com.Day17_Log4j.Google">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:com.Day17_Log4j.Google@2cb4893b]" started-at="2023-09-11T14:43:45 IST" name="beforeTest" finished-at="2023-09-11T14:43:53 IST" duration-ms="8041" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method signature="f()[pri:0, instance:com.Day17_Log4j.Google@2cb4893b]" started-at="2023-09-11T14:43:53 IST" name="f" finished-at="2023-09-11T14:43:54 IST" duration-ms="1344" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- com.Day17_Log4j.Google -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
